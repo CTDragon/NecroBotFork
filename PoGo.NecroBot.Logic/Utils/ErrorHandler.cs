@@ -5,7 +5,7 @@ using PoGo.NecroBot.Logic.Logging;
 
 namespace PoGo.NecroBot.Logic.Utils
 {
-    class ErrorHandler
+    public class ErrorHandler
     {
         /// <summary>
         /// Alerts that a fatal error has occurred, displaying a message and exiting the application

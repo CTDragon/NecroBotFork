@@ -48,7 +48,30 @@ namespace PoGo.NecroBot.CLI
             Logger.SetLogger(new ConsoleLogger(LogLevel.LevelUp), subPath);
 
             if (CheckKillSwitch())
-                return;
+            {
+              //return;
+              Logger.Write("The killswitch has been disabled by TheMaster. Continue (at your own risk)? Y/N", LogLevel.Info);
+              bool? continueAnyway = null;
+
+              while (continueAnyway == null)
+              {
+                string strInput = Console.ReadLine().ToLower();
+
+                switch (strInput)
+                {
+                  case "y":
+                    continueAnyway = true;
+                    break;
+                  case "n":
+                    Logic.Utils.ErrorHandler.ThrowFatalError("User did not manually override killswitch.", 5, LogLevel.Update, true);
+                    continueAnyway = false;
+                    break;
+                  default:
+                    Logger.Write("y for yes, n for no", LogLevel.Error);
+                    continue;
+                }
+              }
+            }
 
             var profilePath = Path.Combine(Directory.GetCurrentDirectory(), subPath);
             var profileConfigPath = Path.Combine(profilePath, "config");
@@ -302,6 +325,7 @@ namespace PoGo.NecroBot.CLI
                 catch (WebException)
                 {
                 }
+                catch {}
             }
 
             return false;
