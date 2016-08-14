@@ -71,6 +71,7 @@ This Website and Project is in no way affiliated with, authorized, maintained, s
 Using the Project might be against the TOS
 
 Additional Notes:
+
 This code was written as a collaboration of hundreds of contributors. It is a monument to a community driven experience that served to educate so many through the knowledge shared in such a large collaborative effort.
 
 The intended use of this hosted code is to study the lifecycle of a large and fast paced, community driven development. Malicious use of this code including but not limited to the act of circumventing security measures in place by any entity is strictly prohibited.
