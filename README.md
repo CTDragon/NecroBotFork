@@ -70,4 +70,13 @@ Thanks to everyone who volunteered by contributing via Pull Requests!
 This Website and Project is in no way affiliated with, authorized, maintained, sponsored or endorsed by Niantic, The Pokémon Company, Nintendo or any of its affiliates or subsidiaries. This is an independent and unofficial API for educational use ONLY. 
 Using the Project might be against the TOS
 
+Additional Notes:
+This code was written as a collaboration of hundreds of contributors. It is a monument to a community driven experience that served to educate so many through the knowledge shared in such a large collaborative effort.
+
+The intended use of this hosted code is to study the lifecycle of a large and fast paced, community driven development. Malicious use of this code including but not limited to the act of circumventing security measures in place by any entity is strictly prohibited.
+
+It is the responsibility of the user to know and understand and abide by his or her regional governing laws and any extension thereof. This hosted works should not be obtained or used in any form or fashion that conflicts with any law.
+
+Please allow up to 60 days for the receipt of any concerns regarding this hosted works and include the title listed above at the beginning of the subject of any communications.
+
 <hr/>
